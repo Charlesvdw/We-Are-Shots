@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Are Shots | Portfolio</title>
+    <link rel="stylesheet" href="./We Are Shots _ Portfolio_files/styles.css">
+    <script src="./We Are Shots _ Portfolio_files/3ad8a4f888.js" crossorigin="anonymous"></script><link rel="stylesheet" href="./We Are Shots _ Portfolio_files/free.min.css" media="all"><link rel="stylesheet" href="./We Are Shots _ Portfolio_files/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="./We Are Shots _ Portfolio_files/free-v4-shims.min.css" media="all">
+<meta id="ConnectiveDocSignExtentionInstalled" name="ConnectiveDocSignExtentionInstalled" data-extension-version="1.0.6"></head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row justify-content-center no-gutters">
+                <div class="col-2">
+                    <div class="nav-links">
+                        <ul>
+                            <a href="http://127.0.0.1:5500/index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="http://127.0.0.1:5500/portfolio.html">
+                                <li>Portfolio</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="nav-toggler" onclick="toggleNavigationIconPortfolio(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-6">
+                    <div class="header-logo">
+                        <img src="./We Are Shots _ Portfolio_files/AfterEffects Logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Portfolio</h1>
+            <div class="row">
+                <div class="col-12">
+                    <img class="portimg" src="./We Are Shots _ Portfolio_files/Foto1.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img class="portimg" src="./We Are Shots _ Portfolio_files/Foto2.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./We Are Shots _ Portfolio_files/Foto3.jpg" alt="" class="portimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./We Are Shots _ Portfolio_files/Foto4.jpg" alt="" class="portimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./We Are Shots _ Portfolio_files/Foto5.jpg" alt="" class="portimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./We Are Shots _ Portfolio_files/Foto6.jpg" alt="" class="portimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./We Are Shots _ Portfolio_files/Foto7.jpg" alt="" class="portimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./We Are Shots _ Portfolio_files/Foto8.jpg" alt="" class="portimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./We Are Shots _ Portfolio_files/Foto9.jpg" alt="" class="portimg">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-8">
+                    <a href="http://127.0.0.1:5500/portfolio.html"><p class="footer-text">Home</p></a>
+                    <a href="http://127.0.0.1:5500/portfolio.html"><p class="footer-text">Portfolio</p></a>
+                    <a href="http://127.0.0.1:5500/portfolio.html"><p class="footer-text disabled">About me</p></a>
+                </div>
+                <div class="col-4">
+                    <img src="./We Are Shots _ Portfolio_files/AfterEffectsLogo3.0.png" alt="">
+                </div>
+            </div>
+            <div class="row footer-socials">
+                <div class="col-1">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./We Are Shots _ Portfolio_files/app.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
